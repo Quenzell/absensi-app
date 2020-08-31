@@ -7,8 +7,33 @@
     <title>Forgot Password</title>
 
 </head>
+<style>
+  .navbar{
+    background-color: #59BDE2;
+  }
+  .navbar b{
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .card{
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+  }
+  .nav-item{
+    background-color: #59BDE2;
+    color: white;
+    font-weight: bold;
+  }
+  .btn{
+    width: 568px;
+    margin-left: 135px;
+    height: 30px;
+    font-size: 13px;
+  }
+</style>
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
         <a class="navbar-brand" href="/">
           <img src="https://i.ibb.co/xF71hsd/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
           E-ABSEN POLIWANGI
@@ -34,7 +59,6 @@
           </div>
         </div>
         <div class="form-group row mb-0">
-          <div class="col-md-3 offset-md-4">
             <button type="submit" class="btn btn-primary">Send Password Reset Link</button>
           </div>
         </div>
