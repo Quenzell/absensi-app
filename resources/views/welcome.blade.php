@@ -15,9 +15,6 @@
     padding: 0;
     background-color: #F5F5F5; 
  }
- img{
-   width:35px;
- }
  h2{
    color: #261f1f;
    font-weight: bold;
@@ -26,7 +23,7 @@
  }
 P{
   color:#A08f8f;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
   margin-bottom: 50px;
 }
@@ -35,29 +32,46 @@ P{
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom
   }
   #content {
    float: left;
    width: 75%;
 }
 .btn{
-  width: 600px;
-  margin-left: 126px;
+  width: 355px;
+  height: 30px;
+  margin-left: 130px;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
 .navbar-brand b{
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 13px;
 }
 .nav-item{
   font-size: 15px;
 }
 .forgot{
-  margin-left: 580px;
+  margin-left: 345px;
   font-size: 12px;
+  margin-bottom: 40px;
 }
 label{
   font-size: 12px;
 }
+.form-group{
+  font-size: 13px;
+}
+.container{
+  width: 800px;
+  height: 220px;
+}
+.form-control{
+  height: 30px;
+  width: 355px;
+}
+
 </style>
 
 </head>
@@ -68,7 +82,7 @@ label{
   <article class="card" id="login">
     <nav class="navbar navbar-light bg-transpernt">
       <a class="navbar-brand" href="/">
-        <img src="https://i.ibb.co/xF71hsd/logo.png" width="30" height="35" class="d-inline-block align-top" alt=""><b>E-ABSEN POLIWANGI</b>
+        <img src="https://i.ibb.co/xF71hsd/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""><b>E-ABSEN POLIWANGI</b>
               <a class="nav-item nav-link" href="signup">SIGN UP</a>
     </nav>
 
@@ -80,13 +94,13 @@ label{
 <div class="container">
   <div class="form-group row">
     <label for="username" class="col-sm-2 col-form-label">Username</label>
-    <div class="col-sm-10">
+    <div class="col-sm-5">
       <input type="username" class="form-control" id="username">
     </div>
   </div>
   <div class="form-group row">
     <label for="password" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
+    <div class="col-sm-5">
       <input type="password" class="form-control" id="password">
     </div>
   </div>
