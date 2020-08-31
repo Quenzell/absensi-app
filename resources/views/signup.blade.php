@@ -7,9 +7,35 @@
     <title>Sign Up</title>
 
 </head>
+<style>
+  body{
+    background-color: #F5F5F5;
+  }
+  .card{
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+  }
+  .navbar{
+    background-color: #59BDE2;
+  }
+  .navbar b{
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .card-header{
+    background-color: #59BDE2;
+    color: white;
+    font-weight: bold;
+  }
+  .btn{
+    width: 568px;
+    margin-left: 135px;
+  }
+</style>
 <body>
   <!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light">
   <a class="navbar-brand" href="/">
     <img src="https://i.ibb.co/xF71hsd/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     E-ABSEN POLIWANGI
